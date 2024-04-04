@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body , html {
+    height: 100%;
+    width: 100%;
+}
+.part1content {
+    height: 85%;
+    background-image: url("https://pecplrollerbusiness.files.wordpress.com/2024/03/hdpe-roller-cover-type.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.part1content::after {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: absolute;
+    top: 0;
+    left: 0;    
+    content: "";
+}
+.content{
+    z-index: 999;
+    color: #ffffff;
+}
+.content p {
+    font-size: 17px;
+}
+.content h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.content .btn {
+    margin-left: 45%;
+}
+.part2{
+    height: 700px;
+}   
+.imgBox {
+    height: 55%;
+    width: 100%;
+    background-image: url("https://pecplrollerbusiness.files.wordpress.com/2024/03/hdpe-roller-cover-type.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.part2row .col-12 {
+    height: 100%;
+}
+.part2-content p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-cpmp{
+    background-color: #1F791F;
+    color: #fff;
+    border-radius: 8px;
+    display: inline;
+    font-weight: 600;
+    cursor: pointer;
+}
+.part3-row .col-12 {
+    height: 100%;
+    background-color: #000;
+}
+.part3-row .col-12 h1 {
+    font-weight: 700;
+}
+.box p {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.part3 {
+    height: 100%;
+}
+.part3-img{
+    background-image: url('https://pecplrollers.com/wp-content/uploads/2022/10/Low-power-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.part4 {
+    height: 500px;
+}
+.part4 .col-12 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page4-forImages .col-6 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page5 {
+    height: 400px;
+}
+.page5-img , .page5-text {
+    height: 100%;
+}
+.page5-img {
+    background-image: url("https://pecplrollerbusiness.files.wordpress.com/2024/03/hdpe-roller-cover-type-1.png?w=1024");
+    background-size: cover;
+    background-position: center;
+}
+.page5-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+.part6 {
+    height: 100%;
+}
+.page6Boxes {
+    height: 200px;
+    overflow: hidden;
+
+}
+.page6Boxes .col-3 img {
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+}
+.table1 {
+    background-color: #fff;
+}
+td {
+    border: 1px solid;
+    padding: 10px;
+}
+.lastPage {
+    background-image: url("https://exforddemo.files.wordpress.com/2019/08/beautiful-female-girl-1002530.jpg");
+    background-size: cover;
+    margin-top: 200px;
+}
+.lastPage {
+    position: relative;
+}
+.lastPage::after {
+    height: 100%;
+    width: 100%;
+    background-color: #00000080;
+    left: 0;
+    top: 0;
+    content: "";
+    position: absolute;
+}
+.lastPage .box {
+    z-index: 999;
+    position: relative;
+}
+.rollerPage6Img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .content .btn {
+        margin-left: 25%;
+    }
+    .part2row .col-12 {
+        height: 50%;
+    }
+    .part2row .col-12 .imgBox {
+        height: 60%;
+    }
+    .part3-row .col-12 {
+        height: 70%;
+    }
+    .part3-row .part3-img {
+        height: 30%;
+    }
+    .part2 {
+        height: 800px;
+    }
+    .part3 {
+        height: 210%;
+        margin-top: 70px;
+    }
+    .part3 .row {
+        flex-direction: column-reverse;
+    }
+    .part4 .page4-forText {
+        height: 50%;
+    }
+    .part4 .page4-forImages {
+        height: 50%;
+    }
+    .page5-img , .page5-text {
+        height: 50%;
+    }
+    .page5 {
+        height: 600px;
+    }
+    .page6Boxes .col-3 img {
+        height: 60%;
+        width: 100%;
+        background-size: cover;
+    }
+    .page6Boxes {
+        height: 100px;
+        overflow: hidden;
+    
+    }
+    .part6 {
+        height: 360%;
+    }
+}
